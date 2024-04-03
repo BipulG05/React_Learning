@@ -1,0 +1,19 @@
+.food-item{
+    background-color: rgb(240, 230, 140);
+    border-bottom: 2px solid rgba(203, 190, 78, 0.453);
+    padding: 5px 0;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .food-span{
+    font-weight: 500;
+    color: tomato;
+    padding: 5px;
+  }
+  .button{
+    float: right;
+    margin-right: 5px;
+  }
+  .buyActive{
+    background-color: lightgreen !important;
+  }

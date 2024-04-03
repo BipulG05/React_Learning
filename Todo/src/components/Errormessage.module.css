@@ -1,0 +1,9 @@
+.InputErrorMessage{
+    text-align: left;
+    height: 30px;
+    padding: 2px 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f8c8cc;
+    border-radius: 5px;
+    color: #b60f1d;
+}

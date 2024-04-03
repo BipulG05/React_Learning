@@ -1,0 +1,18 @@
+input{
+    width: 95%;
+}
+.Add-div{
+    width:540px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+input{
+    font-size: 20px !important;
+}
+.kg-row{
+    margin: 10px 5px;
+}
+.kg-button{
+    width: 70px;
+}

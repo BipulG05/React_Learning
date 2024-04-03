@@ -1,0 +1,12 @@
+/* Error component*/
+.alert-empity{
+  width: 100%;
+  /* margin-left: 5%; */
+}
+
+.food-heading{
+  height: 50px;
+  background-color: silver;
+  color: rgb(96, 80, 80);
+  text-align: center;
+}
