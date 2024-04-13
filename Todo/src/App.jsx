@@ -49,6 +49,9 @@ function App() {
   const handleInputError = () =>{
     setInputError(true);
   }
+  const handleErrorMessage = () => {
+    setInputError(!inputError);
+  }
   
 
   return (
@@ -58,7 +61,7 @@ function App() {
           {/* <center className="todo-container"> */}
           <AppName />
           <AddTodo inputError={handleInputError} onNewItem={handleOnNewItem} />
-          {inputError && <ErrorMessage />}
+          {inputError && <ErrorMessage show={inputError} updateError={handleErrorMessage} />}
           {todoItems.length == 0 && <WelcomeMessage />}
           <TodoItems onDeleteClck={handleDeleteItem} todoItems={todoItems} />
 

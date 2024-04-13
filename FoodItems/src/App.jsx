@@ -35,7 +35,7 @@ function App() {
       let newItems = [...foodItems,newFoodItem];
       setFooditems(newItems);
       // console.log("Food value entered is : ",newFoodItem);
-      console.log("Food value entered is : ",newItems);
+      // console.log("Food value entered is : ",newItems);
 
     }
     // console.log(event);

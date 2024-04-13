@@ -23,7 +23,7 @@ function AddTodo({ onNewItem,inputError }) {
     } 
     onNewItem(todoName, dueDate);
     setTodoName("");
-    setDueDate("");
+    setDueDate(formattedDueDate);
     // console.log(`todo name : ${todoName}, todo date : ${dueDate}`);
   };
 

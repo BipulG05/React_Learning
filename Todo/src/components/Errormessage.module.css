@@ -1,9 +1,26 @@
-.InputErrorMessage{
-    text-align: left;
+.errorDiv{
+    display: flex;
+    justify-content: space-between;
     height: 30px;
-    padding: 2px 10px;
+    align-items: center;
+    background-color: tomato;
+}
+.InputErrorMessage{
+    margin: 0px;
+}
+.closeError{
+    padding: 4px !important;
+    justify-content: center;
+    display: flex !important;
+    border: none !important;
+    color: rgba(244, 81, 52,0.6);
+}
+/* .InputErrorMessage{
+    text-align: left;
+    height: 50px;
+     padding: 2px 10px;
     background-color: #f8d7da;
     border: 1px solid #f8c8cc;
     border-radius: 5px;
     color: #b60f1d;
-}
+} */
